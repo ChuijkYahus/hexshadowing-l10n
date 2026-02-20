@@ -11,7 +11,7 @@ import pipythonmc.hexshadowing.actions.ShadowItemAction;
 
 public class Patterns {
     public static void init() {
-        register("shadow_item", "eweweweweweeqdqdqdqdqdweeeeew", HexDir.SOUTH_EAST, ShadowItemAction.INSTANCE);
+        register("shadow_item", "wewewdeqqqqqawwqqwewqwwqwqwqwqwqwaqeeeeedwwqqwewqaweaedeaew", HexDir.NORTH_EAST, ShadowItemAction.INSTANCE);
     }
 
     private static void register(String name, String signature, HexDir startDir, Action action) {
