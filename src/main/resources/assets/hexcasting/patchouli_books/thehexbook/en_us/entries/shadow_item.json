@@ -1,0 +1,46 @@
+{
+  "name": "hexcasting.action.hexshadowing:shadow_item",
+  "category": "hexcasting:patterns/great_spells",
+  "icon": "hexshadowing:icon.png",
+  "read_by_default": true,
+  "advancement": "hexcasting:root",
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexshadowing:shadow_item",
+      "anchor": "hexshadowing:shadow_item",
+      "input": "entity, entity",
+      "output": "",
+      "text": "hexshadowing.page.shadow_item.1"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.3"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.4"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.5"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.6"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexshadowing.page.shadow_item.7"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "hexcasting:creative_unlocker",
+      "text": "hexshadowing.page.shadow_item.creative"
+    }
+  ]
+}

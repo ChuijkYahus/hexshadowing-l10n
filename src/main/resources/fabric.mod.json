@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hexshadowing",
+  "version": "${version}",
+  "name": "Hex Shadowing",
+  "description": "A Hex Casting addon that enables item shadowing.",
+  "authors": [
+    "pipythonmc"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/hexshadowing",
+    "sources": "https://github.com/pythonmcpi/hexshadowing",
+    "issues": "https://github.com/pythonmcpi/hexshadowing/issues"
+  },
+  "license": "CC-BY-NC-SA 4.0",
+  "icon": "assets/hexshadowing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pipythonmc.hexshadowing.HexShadowing"
+    ]
+  },
+  "mixins": [
+    "hex-shadowing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "hexcasting": ">=0.11.3"
+  }
+}
